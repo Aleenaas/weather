@@ -1,0 +1,75 @@
+body {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHXReEwAtibdgRKaVum18wByHU6S3xueFhQ&s') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  }
+
+
+.weather-container {
+  display: flex;
+  background-color: #521cf2;
+  border-radius: 8px;
+  overflow: hidden;
+  
+}
+
+.weather {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.weather h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.temp-info {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.weather-icon img {
+  width: 100px;
+  height: auto;
+}
+
+.details {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  width: 250px;
+}
+
+.details input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.details button {
+  width: 100%;
+  padding: 8px;
+  background-color: brown;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.weather-details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.weather-details p {
+  margin: 5px 0;
+}
